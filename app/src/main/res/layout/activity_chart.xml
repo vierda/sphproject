@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/line_chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/_10px"
+        android:layout_marginRight="@dimen/_10px"
+        android:layout_marginTop="@dimen/_10px"
+        android:layout_marginBottom="@dimen/_20px"
+        android:layout_above="@+id/close_button"/>
+
+
+    <Button
+        android:id="@+id/close_button"
+        android:layout_width="@dimen/_200px"
+        android:layout_height="@dimen/_70px"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_20px"
+        android:textColor="@color/color_ffffff"
+        android:background="@color/colorPrimary"
+        android:text="@string/close"/>
+</RelativeLayout>
