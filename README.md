@@ -3,3 +3,5 @@ It also shows detail of volume mobile data as a line chart.
 
 This prototype was written using Kotlin, MVVM architecture, Room database, Rx Kotlin and Retrofit. 
 Chart was written by using MPAndroidChart.
+
+This prototype also equipped with user testing interaction with UI using Espresso and unit testing using Mockito. 
